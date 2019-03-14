@@ -17,21 +17,21 @@
     "jest": "21.2.1",
     "jest-expo": "24.0.0",
     "react-native-scripts": "1.14.1",
-    "react-test-renderer": "16.8.2"
+    "react-test-renderer": "16.8.4"
   },
   "dependencies": {
-    "@ptomasroos/react-native-multi-slider": "0.0.11",
+    "@ptomasroos/react-native-multi-slider": "1.0.0",
     "expo": "25.1.2",
     "lodash": "4.17.11",
     "prop-types": "15.6.0",
-    "react": "16.8.2",
-    "react-dom": "16.8.2",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
     "react-instantsearch": "5.4.0",
     "react-native": "0.52.0",
     "react-native-modal-dropdown": "0.6.2",
-    "react-native-router-flux": "4.0.0-beta.28",
-    "react-native-star-rating": "1.0.8",
-    "react-native-vector-icons": "4.5.0"
+    "react-native-router-flux": "4.0.6",
+    "react-native-star-rating": "1.1.0",
+    "react-native-vector-icons": "6.4.1"
   },
   "jest": {
     "preset": "jest-expo",

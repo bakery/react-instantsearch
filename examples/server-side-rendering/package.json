@@ -4,9 +4,9 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "yarn build && nodemon dist/server.js",
-    "watch": "yarn build --watch",
-    "build": "webpack",
+    "start": "webpack && nodemon dist/server.js",
+    "watch": "webpack --watch",
+    "build": "webpack --mode=production",
     "test": "jest"
   },
   "devDependencies": {
@@ -16,18 +16,19 @@
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
-    "jest": "22.1.4",
+    "jest": "22.4.4",
     "json-loader": "0.5.7",
     "nodemon": "1.18.10",
-    "react-test-renderer": "16.8.2",
-    "webpack": "3.10.0",
+    "react-test-renderer": "16.8.4",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.2.3",
     "webpack-node-externals": "1.7.2"
   },
   "dependencies": {
     "express": "4.16.4",
     "prop-types": "15.6.0",
-    "react": "16.8.2",
-    "react-dom": "16.8.2",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
     "react-instantsearch-dom": "5.4.0"
   }
 }

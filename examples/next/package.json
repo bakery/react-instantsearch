@@ -12,17 +12,17 @@
   "devDependencies": {
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "23.6.0",
-    "css-loader": "2.1.0",
+    "css-loader": "2.1.1",
     "jest": "23.6.0",
-    "react-test-renderer": "16.8.2",
+    "react-test-renderer": "16.8.4",
     "style-loader": "0.23.1"
   },
   "dependencies": {
-    "next": "7.0.3",
+    "next": "8.0.3",
     "prop-types": "15.6.2",
     "qs": "6.6.0",
-    "react": "16.8.2",
-    "react-dom": "16.8.2",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
     "react-instantsearch-dom": "5.4.0"
   }
 }
